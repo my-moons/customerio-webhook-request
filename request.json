@@ -1,5 +1,6 @@
 {
     "Template": "New_Whatsapp",
+    "Tag": "Test",
     "First_Name": {%if customer.First_Name%} "{{customer.First_Name}}" {%else%} "Cosmonauta"{%endif%},
     "Country_Ops": {%if customer.Country_Ops%} "{{customer.Country_Ops}}" {%else%} ""{%endif%},
     "Phone": {%if customer.Phone%} "{{customer.Phone}}" {%else%}"noPatientPhone"{%endif%},
@@ -24,6 +25,5 @@
     "Homekit_Address": {%if event and event.homekit_address %}"{{event.homekit_address}}"{%else%}"noHomekitAddress"{%endif%},
     "Checkout_Appointment": "{{snippets.Appointment_Link}}",
     "Checkout_Homekit": "{{snippets.Homekit_Link}}",
-    "Promo_Url": "{{snippets.Before_And_After_Link}}",
-    "Tag": "Test"
+    "Promo_Url": "{{snippets.Before_And_After_Link}}"
 }
