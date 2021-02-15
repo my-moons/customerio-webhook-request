@@ -24,6 +24,6 @@
     "Homekit_Address": {%if event and event.homekit_address %}"{{event.homekit_address}}"{%else%}"noHomekitAddress"{%endif%},
     "Checkout_Appointment": "{{snippets.Appointment_Link}}",
     "Checkout_Homekit": "{{snippets.Homekit_Link}}",
-    "Tag": "Test",
-    "Promo_Url": "{{snippets.Before_And_After_Link}}"
+    "Promo_Url": "{{snippets.Before_And_After_Link}}",
+    "Tag": "Test"
 }
