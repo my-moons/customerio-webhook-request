@@ -3,5 +3,5 @@
     "Name": {%if customer.First_Name%} "{{customer.First_Name}}" {%else%} "Cosmonauta"{%endif%},
     "Country_Ops": {%if customer.Country_Ops%} "{{customer.Country_Ops}}" {%else%} ""{%endif%},
     "Phone": "{{snippets.Code_Phone_Link}}",
-    "NPS_Referrals": "{{snippets.NPS_Referrals}}"
+    "NPS_Referrals": "{{snippets.NPS_Referrals_v2}}"
 }
