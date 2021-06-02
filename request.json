@@ -35,5 +35,6 @@
     "Timezone":{%if event and event.Timezone%}"{{customer.Timezone}}"{%else%}""{%endif%},
     "Appointment_Hour":"{{snippets.Appointment_Hour}}",
     "Survey_Referral":"{{snippets.Survey_Referral}}",
-    "NPS_Survey":"{{snippets.Survey_Referral}}"
+    "NPS_Survey":"{{snippets.Survey_Referral}}",
+    "appointmentId":{%if event and event.appointmentId%}"{{event.appointmentId}}"{%else%} ""{%endif%}, 
 }
