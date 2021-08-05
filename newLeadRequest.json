@@ -24,5 +24,6 @@
     "Pictures_Url":"{{snippets.Upload_Pictures_Link}}",
     "Timezone":{%if customer.Timezone%}"{{customer.Timezone}}"{%else%}""{%endif%},
     "Appointment_URL":"{{snippets.Appointment_New_Lead}}",
-    "Journey_Variant":{%if customer.Journey_Variant%}"{{customer.Journey_Variant}}"{%else%}""{%endif%}
+    "Journey_Variant":{%if customer.Journey_Variant%}"{{customer.Journey_Variant}}"{%else%}""{%endif%},
+    "Homekit_Link":"{{snippets.Homekit_Link}}"
 }
