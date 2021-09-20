@@ -38,5 +38,6 @@
     "NPS_Survey":"{{snippets.Survey_Referral}}",
     "Appointment_Id":{%if event and event.appointmentId%}"{{event.appointmentId}}"{%else%}""{%endif%},
     "CustomerId":{%if customer.CustomerId%}"{{customer.CustomerId}}"{%else%} ""{%endif%},
-    "Deal_Appointment_Id":{%if event and event.deal_appointment_id%}"{{event.deal_appointment_id}}"{%else%}""{%endif%} 
+    "Deal_Appointment_Id":{%if event and event.deal_appointment_id%}"{{event.deal_appointment_id}}"{%else%}""{%endif%},
+    "Soft_Login_Code":{% if event and event.code %}"{{event.code}}"{% else %}""{%endif%} 
 }
