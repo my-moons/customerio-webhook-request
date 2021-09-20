@@ -26,6 +26,5 @@
     "Appointment_URL":"{{snippets.Appointment_New_Lead}}",
     "Journey_Variant":{%if customer.Journey_Variant%}"{{customer.Journey_Variant}}"{%else%}""{%endif%},
     "Homekit_Link":"{{snippets.Homekit_Link}}",
-    "User_Dashboard":{%if customer.User_Dashboard%}"{{customer.User_Dashboard}}"{%else%}""{%endif%},
-    "Soft_Login_Code":{% if event and event.code %}"{{event.code}}"{% else %}""{%endif%}
+    "User_Dashboard":{%if customer.User_Dashboard%}"{{customer.User_Dashboard}}"{%else%}""{%endif%}
 }
