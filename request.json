@@ -39,5 +39,9 @@
     "Appointment_Id":{%if event and event.appointmentId%}"{{event.appointmentId}}"{%else%}""{%endif%},
     "CustomerId":{%if customer.CustomerId%}"{{customer.CustomerId}}"{%else%} ""{%endif%},
     "Deal_Appointment_Id":{%if event and event.deal_appointment_id%}"{{event.deal_appointment_id}}"{%else%}""{%endif%},
-    "Soft_Login_Code":{% if event and event.code %}"{{event.code}}"{% else %}""{%endif%} 
+    "Soft_Login_Code":{% if event and event.code %}"{{event.code}}"{% else %}""{%endif%},
+    "Referral_Amount":"{{snippets.MontoReferidosOct21}}",
+    "Referral_Enterprise":"{{snippets.EmpresaReferidosOct21}}",
+    "Referral_Code":{% if customer.Referral_Code%}"{{customer.Referral_Code}}"{% else %}""{%endif%},
+    "Referral_Link":"{{snippets.LinkReferidosOct21}}" 
 }
